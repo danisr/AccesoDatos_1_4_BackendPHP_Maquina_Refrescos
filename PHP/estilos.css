@@ -1,0 +1,144 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	text-align: center;	
+    margin: auto;
+    max-width: 600px;
+}
+th {
+	text-align: center;
+	border-radius: 25px;
+	background-color: #d9d9d9;
+}
+td {
+	font-size:20px;
+}
+button {
+	border-radius: 25px;    
+}
+h3 {
+	color: red;
+}
+h4 {
+    font-style: italic;
+}
+a:link, a:visited {
+	background-color: #000000;
+    color: white;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 20px; 
+    font-style: italic;
+    display: inline-block;
+    border-radius: 10px;
+}
+a:active {
+	text-decoration: none
+}
+a:hover {
+	background-color: #a6a6a6;
+	color: black;
+	font-size: 30px; 
+	font-weight:bold;
+}
+a.insertar:link, a.insertar:visited {
+	background-color: #ccff99;
+    color: black;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 15px; 
+    font-style: italic;
+    display: inline-block;
+    border-radius: 10px;
+}
+a.insertar:active {
+	text-decoration: none
+}
+a.insertar:hover {
+	background-color: #59b300;
+	color: white;
+	font-size: 20px; 
+	font-weight:bold;
+}
+a.eliminar:link, a.eliminar:visited {
+	background-color: #ff8080;
+    color: black;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 15px; 
+    font-style: italic;
+    display: inline-block;
+    border-radius: 10px;
+}
+a.eliminar:active {
+	text-decoration: none
+}
+a.eliminar:hover {
+	background-color: #ff0000;
+	color: white;
+	font-size: 20px; 
+	font-weight:bold;
+}
+a.modificar:link, a.modificar:visited {
+	background-color: #6699ff;
+    color: black;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 15px; 
+    font-style: italic;
+    display: inline-block;
+    border-radius: 10px;
+}
+a.modificar:active {
+	text-decoration: none
+}
+a.modificar:hover {
+	background-color: #004de6;
+	color: white;
+	font-size: 20px; 
+	font-weight:bold;
+}
+a.depositos:link, a.depositos:visited {
+	background-color: #ffff33;
+    color: black;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 25px; 
+    font-style: italic;
+    display: inline-block;
+    border-radius: 10px;
+}
+a.depositos:active {
+	text-decoration: none
+}
+a.depositos:hover {
+	background-color: #ffff66;
+	color: black;
+	font-size: 30px; 
+	font-weight:bold;
+}
+a.dispensadores:link, a.dispensadores:visited {
+	background-color: #99ceff;
+    color: black;
+    padding: 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 25px; 
+    font-style: italic;
+    display: inline-block;
+    border-radius: 10px;
+}
+a.dispensadores:active {
+	text-decoration: none
+}
+a.dispensadores:hover {
+	background-color: #80d4ff;
+	color: black;
+	font-size: 30px; 
+	font-weight:bold;
+}
